@@ -1,0 +1,32 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: inherit !important;
+}
+
+body img {
+    width: 220px;
+    height: 180px;
+}
+
+.center {
+    text-align-last: center !important;
+    place-self: center !important;
+}

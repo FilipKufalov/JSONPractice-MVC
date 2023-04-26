@@ -1,0 +1,18 @@
+﻿@foreach (var element in Model)
+{
+    <div class="card" style="width: 500px; margin-bottom: 5px">
+        <div class="row no-gutters">
+            <div class="col-sm-5 center">
+                <img src="@element.thumbnail">
+            </div>
+            <div class="col-sm-7">
+                <div class="card-body">
+                    <h5 class="card-title">@element.title</h5>
+                    <p class="card-text">@element.description</p>
+                    <a href="#" class="btn btn-primary">Order Now @element.price $</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
